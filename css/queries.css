@@ -1,0 +1,586 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        position: relative;
+        width: 68em;
+    }
+    li.lk-wp {
+        margin: 1em;
+        font-size: 28px;
+    }
+    li.lk-su {
+        margin: 1em;
+        font-size: 28px;
+    }
+    .icon{
+        display: block;
+    }
+    .icon ~ul.wrapper-link{
+        left: 0;
+               
+    }
+    ul.wrapper-link {
+        position: fixed;
+        width: 100%;
+        height: 20em;
+        background: white;
+        top: 56px;
+        left: 0;
+        color: hsl(228, 39%, 23%);
+        display: block;
+        text-align: center;
+    }
+    .click{
+        color:hsl(228, 39%, 23%);
+
+    }
+    .clicks{
+        color: hsl(228, 39%, 23%);
+    }
+    .click:hover,.click.active{
+        color: #0082e6;
+    
+    }
+    .bg-head {
+        background-image: url(../image/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        height: 40em;
+        z-index: 5;
+        background-position: center;
+        background-size: cover;
+        max-height: 100%;
+        width: 40em;
+        float: right;
+        margin-top: -19em;
+        margin-right: -13em;
+    }
+   
+   
+    .flexx {
+        display: none;
+    }
+    h1.bring {
+        margin-left: 1em;
+        white-space: nowrap;
+        font-size: 70px;
+        color: hsl(228, 39%, 23%);
+        margin-top: 7em;
+    }
+    p.manage {
+        white-space: nowrap;
+        font-size: 44px;
+        margin-top: 1em;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        line-height: 2em;
+        margin-left: -1em;
+    }
+    .row-text {
+        display: flex;
+        margin-top: 9em;
+        flex-flow: column-reverse;
+    }
+    img.intro {
+        display: block;
+        margin-left: 18em;
+    }
+    .message {
+        margin-left: 15em;
+        margin-top: -18em;
+    }
+    .btn {
+        margin-top: 2em;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-radius: 50px;
+        border: none;
+        font-size: 39px;
+        white-space: nowrap;
+        margin-left: 2em;
+    }
+    .row-message {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6em;
+        flex-flow: column;
+        text-align: center;
+    }
+    h1.what {
+        font-size: 70px;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        white-space: nowrap;
+    }
+    p.software {
+        white-space: nowrap;
+        font-size: 48px;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        margin-left: 4em;
+        line-height: 2em;
+    }
+    .column {
+        margin-top: 7em;
+        margin-left: 10em;
+    }
+    span.number {
+        background-color: hsl(12, 88%, 59%);
+        font-size: 40px;
+        margin-left: -24em;
+        border-radius: 50px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    h1.track {
+        font-size: 55px;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        white-space: nowrap;
+    }
+    p.day {
+        white-space: nowrap;
+        font-size: 40px;
+        margin-bottom: 1em;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        line-height: 3em;
+        margin-left: -1em;
+    }
+    h1.flex {
+        font-size: 70px;
+        margin-left: 3em;
+    }
+    img.avatar {
+        width: 30em;
+        margin-left: 12em;
+    }
+    h4.name {
+        margin-top: 1em;
+        font-size: 70px;
+        margin-left: 3em;
+    }
+    p.super {
+        margin-top: 1em;
+        white-space: nowrap;
+        font-size: 40px;
+        margin-left: 5em;
+        line-height: 3em;
+    }
+    .button-click {
+        margin-top: 2em;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-radius: 50px;
+        border: none;
+        font-size: 45px;
+        margin-left: 5em;
+    }
+    .simplify {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 9em;
+        background-color: hsl(12, 88%, 59%);
+        height: 32em;
+        width: 56em;
+        flex-flow: column;
+        text-align: center;
+        margin-left: 6em;
+    }
+    h1.team {
+        color: white;
+        font-size: 50px;
+        padding-top: 1em;
+    }
+    .buut {
+        padding-top: 0em;
+    }
+    button.getbutt {
+        color: hsl(12, 88%, 59%);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 50px;
+        border-radius: 50px;
+        border: none;
+    }
+    .footeeer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 6em;
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+   
+    footer {
+        background-color: hsl(233, 12%, 13%);
+        height: 65em;
+        width: 56em;
+        margin-top: 1em;
+        margin-left: 6em;
+    }
+    .place {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 50px;
+        border: none;
+        font-size: 40px;
+    }
+    .go {
+        border-radius: 50px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 1em;
+        border: none;
+        font-size: 30px;
+    }
+    .home {
+        color: white;
+        font-size: 46px;
+        line-height: 2em;
+    }
+    img.mmmm {
+        width: 19em;
+        margin-top: 2em;
+    }
+    .font-awesome {
+        margin-left: 18em;
+        display: none;
+    }
+    p.copy {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 1em;
+    }
+    p.myname {
+        float: right;
+        margin-top: 3em;
+        margin-right: -16em;
+        color: red;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    
+
+    
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        position: relative;
+        width: 68em;
+    }
+    li.lk-wp {
+        margin: 1em;
+        font-size: 28px;
+    }
+    li.lk-su {
+        margin: 1em;
+        font-size: 28px;
+    }
+    .icon{
+        display: block;
+    }
+    .icon ~ul.wrapper-link{
+        left: 0;
+               
+    }
+     ul.wrapper-link {
+        position: fixed;
+        width: 100%;
+        height: 20em;
+        background: white;
+        top: 56px;
+        left: -100%;
+        color: hsl(228, 39%, 23%);
+        display: block;
+        text-align: center;
+        transition: all.5s;
+    }
+    .click{
+        color:hsl(228, 39%, 23%);
+
+    }
+    .clicks{
+        color: hsl(228, 39%, 23%);
+    }
+    .click:hover,.click.active{
+        color: #0082e6;
+    
+    }
+    .bg-head {
+        background-image: url(../image/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        height: 40em;
+        z-index: 5;
+        background-position: center;
+        background-size: cover;
+        max-height: 100%;
+        width: 40em;
+        float: right;
+        margin-top: -19em;
+        margin-right: -13em;
+    }
+   
+    .flexx {
+        display: none;
+    }
+    h1.bring {
+        margin-left: 1em;
+        white-space: nowrap;
+        font-size: 70px;
+        color: hsl(228, 39%, 23%);
+        margin-top: 7em;
+    }
+    p.manage {
+        white-space: nowrap;
+        font-size: 44px;
+        margin-top: 1em;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        line-height: 2em;
+        margin-left: -1em;
+    }
+    .row-text {
+        display: flex;
+        margin-top: 9em;
+        flex-flow: column-reverse;
+    }
+    img.intro {
+        display: block;
+        margin-left: 18em;
+    }
+    .message {
+        margin-left: 15em;
+        margin-top: -18em;
+    }
+    .btn {
+        margin-top: 2em;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-radius: 50px;
+        border: none;
+        font-size: 39px;
+        white-space: nowrap;
+        margin-left: 2em;
+    }
+    .row-message {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 6em;
+        flex-flow: column;
+        text-align: center;
+    }
+    h1.what {
+        font-size: 70px;
+        margin-bottom: 1em;
+        margin-left: 3em;
+        white-space: nowrap;
+    }
+    p.software {
+        white-space: nowrap;
+        font-size: 48px;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        margin-left: 4em;
+        line-height: 2em;
+    }
+    .column {
+        margin-top: 7em;
+        margin-left: 10em;
+    }
+    span.number {
+        background-color: hsl(12, 88%, 59%);
+        font-size: 40px;
+        margin-left: -24em;
+        border-radius: 50px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    h1.track {
+        font-size: 55px;
+        margin-top: -1em;
+        margin-bottom: 1em;
+        white-space: nowrap;
+    }
+    p.day {
+        white-space: nowrap;
+        font-size: 40px;
+        margin-bottom: 1em;
+        color: hsl(228, 39%, 23%);
+        opacity: .8;
+        line-height: 3em;
+        margin-left: -1em;
+    }
+    h1.flex {
+        font-size: 70px;
+        margin-left: 3em;
+    }
+    img.avatar {
+        width: 30em;
+        margin-left: 12em;
+    }
+    h4.name {
+        margin-top: 1em;
+        font-size: 70px;
+        margin-left: 3em;
+    }
+    p.super {
+        margin-top: 1em;
+        white-space: nowrap;
+        font-size: 40px;
+        margin-left: 5em;
+        line-height: 3em;
+    }
+    .button-click {
+        margin-top: 2em;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-radius: 50px;
+        border: none;
+        font-size: 45px;
+        margin-left: 5em;
+    }
+    .simplify {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 9em;
+        background-color: hsl(12, 88%, 59%);
+        height: 32em;
+        width: 56em;
+        flex-flow: column;
+        text-align: center;
+        margin-left: 6em;
+    }
+    h1.team {
+        color: white;
+        font-size: 50px;
+        padding-top: 1em;
+    }
+    .buut {
+        padding-top: 0em;
+    }
+    button.getbutt {
+        color: hsl(12, 88%, 59%);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 50px;
+        border-radius: 50px;
+        border: none;
+    }
+    .footeeer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 6em;
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+    footer {
+        background-color: hsl(233, 12%, 13%);
+        height: 65em;
+        width: 56em;
+        margin-top: 1em;
+        margin-left: 6em;
+    }
+    .place {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 50px;
+        border: none;
+        font-size: 40px;
+    }
+    .go {
+        border-radius: 50px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 1em;
+        border: none;
+        font-size: 30px;
+    }
+    .home {
+        color: white;
+        font-size: 46px;
+        line-height: 2em;
+    }
+    img.mmmm {
+        width: 19em;
+        margin-top: 2em;
+    }
+    .font-awesome {
+        margin-left: 18em;
+        display: none;
+    }
+    p.copy {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 1em;
+    }
+    p.myname {
+        float: right;
+        margin-top: 4em;
+        margin-right: -16em;
+        color: red;
+        text-align: center;
+        font-size: 36px;
+    }
+   
+
+}
+
+   
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}
