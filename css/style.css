@@ -327,6 +327,16 @@ p.myname {
   margin-right: -15em;
   color: red;
 }
+.booth{
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  border-radius: 15px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  border: none;
+}
 
 
 

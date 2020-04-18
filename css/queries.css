@@ -5,7 +5,7 @@
         justify-content: space-around;
         background-color: #fff;
         position: relative;
-        width: 68em;
+        width: 73em;
     }
     li.lk-wp {
         margin: 1em;
@@ -25,7 +25,7 @@
     ul.wrapper-link {
         position: fixed;
         width: 100%;
-        height: 20em;
+        height: 25em;
         background: white;
         top: 56px;
         left: 0;
@@ -173,7 +173,7 @@
         margin-top: 1em;
         white-space: nowrap;
         font-size: 40px;
-        margin-left: 5em;
+        margin-left: 8em;
         line-height: 3em;
     }
     .button-click {
@@ -195,10 +195,9 @@
         margin-top: 9em;
         background-color: hsl(12, 88%, 59%);
         height: 32em;
-        width: 56em;
+        width: 73em;
         flex-flow: column;
         text-align: center;
-        margin-left: 6em;
     }
     h1.team {
         color: white;
@@ -229,9 +228,9 @@
     footer {
         background-color: hsl(233, 12%, 13%);
         height: 65em;
-        width: 56em;
+        width: 73em;
         margin-top: 1em;
-        margin-left: 6em;
+
     }
     .place {
         padding-top: 15px;
@@ -294,7 +293,7 @@
         justify-content: space-around;
         background-color: #fff;
         position: relative;
-        width: 68em;
+        width: 73em;
     }
     li.lk-wp {
         margin: 1em;
@@ -314,7 +313,7 @@
      ul.wrapper-link {
         position: fixed;
         width: 100%;
-        height: 20em;
+        height: 25em;
         background: white;
         top: 56px;
         left: -100%;
@@ -462,7 +461,7 @@
         margin-top: 1em;
         white-space: nowrap;
         font-size: 40px;
-        margin-left: 5em;
+        margin-left: 8em;
         line-height: 3em;
     }
     .button-click {
@@ -484,10 +483,9 @@
         margin-top: 9em;
         background-color: hsl(12, 88%, 59%);
         height: 32em;
-        width: 56em;
+        width: 73em;
         flex-flow: column;
         text-align: center;
-        margin-left: 6em;
     }
     h1.team {
         color: white;
@@ -517,9 +515,9 @@
     footer {
         background-color: hsl(233, 12%, 13%);
         height: 65em;
-        width: 56em;
+        width: 73em;
         margin-top: 1em;
-        margin-left: 6em;
+
     }
     .place {
         padding-top: 15px;
